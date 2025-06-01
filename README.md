@@ -17,27 +17,25 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
 
 ## 📁 Estrutura do Projeto
 
-Projeto-QuickSort/
-├── python/
-│   ├── quicksort.py               # Algoritmo QuickSort em Python
-│   ├── medir_tempos.py            # Mede tempo, média e desvio padrão
-│   ├── graficos.py                # Gera os gráficos (matplotlib)
-│   └── gerar_entradas.py          # (opcional) Geração separada de entradas
-│
-├── c/
-│   ├── quicksort.c                # Algoritmo + testes de tempo em C
-│   └── Makefile                   # (opcional) Para compilar rapidamente
-│
-├── imgs/
-│   ├── grafico1_tempos.png        # Gráfico de tempo médio
-│   ├── grafico2_desvios.png       # Gráfico de desvio padrão
-│   └── grafico3_complexidade.png  # Gráfico de complexidade teórica
-│
-├── relatorio/
-│   └── Projeto_Teoria_Computacao_QuickSort.pdf  # Documento final completo
-│
-└── README.md                      # Este arquivo
+- `python/` — Códigos Python:
+  - `quicksort.py` — Implementação do algoritmo QuickSort em Python
+  - `medir_tempos.py` — Mede tempo de execução, média e desvio padrão
+  - `graficos.py` — Gera gráficos com matplotlib
+  - `gerar_entradas.py` — (opcional) Geração separada de entradas
 
+- `c/` — Códigos em C:
+  - `quicksort.c` — Implementação do algoritmo e testes de tempo
+  - `Makefile` — (opcional) Para facilitar a compilação no terminal
+
+- `imgs/` — Gráficos gerados:
+  - `grafico1_tempos.png` — Tempo médio de execução
+  - `grafico2_desvios.png` — Desvio padrão das execuções
+  - `grafico3_complexidade.png` — Complexidade teórica comparativa
+
+- `relatorio/` — Documentação final:
+  - `Projeto_Teoria_Computacao_QuickSort.pdf` — Relatório completo do projeto
+
+- `README.md` — Documento principal de apresentação do projeto
 
 ## 🧠 Conteúdo
 
