@@ -1,0 +1,133 @@
+PYTHON:
+
+
+== PEQUENA ==
+Tamanho: 10
+
+Execução  1: 0.000050200 segundos
+Execução  2: 0.000029400 segundos
+Execução  3: 0.000032600 segundos
+Execução  4: 0.000032400 segundos
+Execução  5: 0.000042600 segundos
+Execução  6: 0.000030500 segundos
+Execução  7: 0.000069700 segundos
+Execução  8: 0.000056100 segundos
+Execução  9: 0.000026900 segundos
+Execução 10: 0.000031000 segundos
+Execução 11: 0.000031300 segundos
+Execução 12: 0.000027300 segundos
+Execução 13: 0.000034000 segundos
+Execução 14: 0.000034900 segundos
+Execução 15: 0.000036000 segundos
+
+Média de tempo: 0.000037660 segundos
+Desvio padrão: 0.000012109 segundos
+
+== MÉDIA ==
+Tamanho: 1000
+
+Execução  1: 0.005145600 segundos
+Execução  2: 0.003847200 segundos
+Execução  3: 0.004284900 segundos
+Execução  4: 0.005981400 segundos
+Execução  5: 0.004370100 segundos
+Execução  6: 0.006672600 segundos
+Execução  7: 0.002505200 segundos
+Execução  8: 0.003944200 segundos
+Execução  9: 0.007468200 segundos
+Execução 10: 0.006145600 segundos
+Execução 11: 0.004452400 segundos
+Execução 12: 0.004872800 segundos
+Execução 13: 0.003438800 segundos
+Execução 14: 0.005048900 segundos
+Execução 15: 0.003254600 segundos
+
+Média de tempo: 0.004762167 segundos
+Desvio padrão: 0.001355305 segundos
+
+== GRANDE ==
+Tamanho: 10000
+
+Execução  1: 0.055871600 segundos
+Execução  2: 0.056550500 segundos
+Execução  3: 0.056683900 segundos
+Execução  4: 0.052891800 segundos
+Execução  5: 0.050526500 segundos
+Execução  6: 0.037794300 segundos
+Execução  7: 0.039996400 segundos
+Execução  8: 0.036738000 segundos
+Execução  9: 0.034558100 segundos
+Execução 10: 0.032258700 segundos
+Execução 11: 0.033914500 segundos
+Execução 12: 0.025237000 segundos
+Execução 13: 0.033748600 segundos
+Execução 14: 0.037576400 segundos
+Execução 15: 0.036769000 segundos
+
+Média de tempo: 0.041407687 segundos
+Desvio padrão: 0.010236077 segundos
+
+C:
+
+== ENTRADA PEQUENA ==
+Tamanho: 10
+Execucao  1: 0.000001800 segundos
+Execucao  2: 0.000000900 segundos
+Execucao  3: 0.000000800 segundos
+Execucao  4: 0.000001000 segundos
+Execucao  5: 0.000000900 segundos
+Execucao  6: 0.000001000 segundos
+Execucao  7: 0.000000800 segundos
+Execucao  8: 0.000001100 segundos
+Execucao  9: 0.000001000 segundos
+Execucao 10: 0.000000800 segundos
+Execucao 11: 0.000000800 segundos
+Execucao 12: 0.000000600 segundos
+Execucao 13: 0.000000900 segundos
+Execucao 14: 0.000001100 segundos
+Execucao 15: 0.000000800 segundos
+
+Media de tempo: 0.000000953 segundos
+Desvio padrao: 0.000000270 segundos
+
+== ENTRADA MEDIA ==
+Tamanho: 1000
+Execucao  1: 0.000259800 segundos
+Execucao  2: 0.000125900 segundos
+Execucao  3: 0.000112400 segundos
+Execucao  4: 0.000127500 segundos
+Execucao  5: 0.000123600 segundos
+Execucao  6: 0.000117100 segundos
+Execucao  7: 0.000139700 segundos
+Execucao  8: 0.000135900 segundos
+Execucao  9: 0.000131400 segundos
+Execucao 10: 0.000159700 segundos
+Execucao 11: 0.000106100 segundos
+Execucao 12: 0.000110700 segundos
+Execucao 13: 0.000105500 segundos
+Execucao 14: 0.000116100 segundos
+Execucao 15: 0.000126500 segundos
+
+Media de tempo: 0.000133193 segundos
+Desvio padrao: 0.000037794 segundos
+
+== ENTRADA GRANDE ==
+Tamanho: 10000
+Execucao  1: 0.002393100 segundos
+Execucao  2: 0.002624600 segundos
+Execucao  3: 0.001536700 segundos
+Execucao  4: 0.001767700 segundos
+Execucao  5: 0.001463600 segundos
+Execucao  6: 0.001466300 segundos
+Execucao  7: 0.001494800 segundos
+Execucao  8: 0.001592600 segundos
+Execucao  9: 0.002570100 segundos
+Execucao 10: 0.002047700 segundos
+Execucao 11: 0.002266700 segundos
+Execucao 12: 0.001921800 segundos
+Execucao 13: 0.002427000 segundos
+Execucao 14: 0.001999800 segundos
+Execucao 15: 0.001737100 segundos
+
+Media de tempo: 0.001953973 segundos
+Desvio padrao: 0.000416724 segundos
