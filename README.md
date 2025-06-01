@@ -19,30 +19,25 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
 
 Projeto-QuickSort/
 ├── python/
-│ ├── quicksort.py # Algoritmo em Python
-│ ├── medir_tempos.py # Mede tempo, média e desvio padrão
-│ ├── graficos.py # Gera os gráficos (matplotlib)
-│ └── gerar_entradas.py # (opcional) geração separada de entradas
+│   ├── quicksort.py               # Algoritmo QuickSort em Python
+│   ├── medir_tempos.py            # Mede tempo, média e desvio padrão
+│   ├── graficos.py                # Gera os gráficos (matplotlib)
+│   └── gerar_entradas.py          # (opcional) Geração separada de entradas
 │
 ├── c/
-│ ├── quicksort.c # Algoritmo + testes de tempo em C
-│ └── Makefile # (opcional) para compilar rápido
+│   ├── quicksort.c                # Algoritmo + testes de tempo em C
+│   └── Makefile                   # (opcional) Para compilar rapidamente
 │
 ├── imgs/
-│ ├── grafico1_tempos.png # Tempo médio
-│ ├── grafico2_desvios.png # Desvio padrão
-│ └── grafico3_complexidade.png # Complexidade teórica
+│   ├── grafico1_tempos.png        # Gráfico de tempo médio
+│   ├── grafico2_desvios.png       # Gráfico de desvio padrão
+│   └── grafico3_complexidade.png  # Gráfico de complexidade teórica
 │
 ├── relatorio/
-│ └── Projeto_Teoria_Computacao_QuickSort.pdf
+│   └── Projeto_Teoria_Computacao_QuickSort.pdf  # Documento final completo
 │
-└── README.md
+└── README.md                      # Este arquivo
 
-markdown
-Copiar
-Editar
-
----
 
 ## 🧠 Conteúdo
 
@@ -79,61 +74,77 @@ Editar
 
 ## 🧪 Como Executar
 
-### Python
+### ▶️ Python
 
 ```bash
 cd python/
-python medir_tempos.py     # Coleta média e desvio
-python graficos.py         # Gera gráficos com base nos dados
-Requisitos: matplotlib, pandas, numpy
+python medir_tempos.py     # Executa os testes e coleta tempo, média e desvio padrão
+python graficos.py         # Gera os gráficos com base nos dados obtidos
+```
 
-Instalar com:
+📦 Requisitos:
+- `matplotlib`
+- `pandas`
+- `numpy`
 
-bash
-Copiar
-Editar
+Instale com:
+
+```bash
 pip install matplotlib pandas numpy
-C
-bash
-Copiar
-Editar
+```
+
+---
+
+### 💻 C
+
+```bash
 cd c/
 gcc quicksort.c -o quicksort.exe
 ./quicksort.exe
-📊 Resultados
-Os gráficos podem ser encontrados na pasta /imgs e também inseridos no relatório em PDF.
+```
 
-📄 Relatório
-O relatório completo está disponível em:
+---
 
-📁 /relatorio/Projeto_Teoria_Computacao_QuickSort.pdf
+## 📊 Resultados
 
-O documento aborda:
+Os gráficos gerados automaticamente estão disponíveis na pasta:
 
-Descrição detalhada do algoritmo
+```
+/imgs/
+```
 
-Análise assintótica
+Eles também estão inseridos e discutidos no relatório final em PDF.
 
-Aplicabilidade
+---
 
-Testes empíricos
+## 📄 Relatório
 
-Gráficos comentados
+O documento completo do projeto pode ser acessado em:
 
-Reflexão final sobre classe P e NP
+```
+/relatorio/Projeto_Teoria_Computacao_QuickSort.pdf
+```
 
-👨‍💻 Autores
-Gabriel Antônio de Oliveira Rocha
+O relatório inclui:
+- ✅ Descrição detalhada do algoritmo QuickSort  
+- ✅ Análise assintótica (Ω, Θ, O)  
+- ✅ Aplicabilidade prática  
+- ✅ Testes empíricos com Python e C  
+- ✅ Gráficos comparativos comentados  
+- ✅ Reflexão sobre classes P, NP e problemas relacionados  
 
-Enzo de Barros Nunes
+---
 
-Davi Maurício Araújo Pereira
+## 👨‍💻 Autores
 
-CESAR School – 2024/2025
+- Gabriel Antônio de Oliveira Rocha  
+- Enzo de Barros Nunes  
+- Davi Maurício Araújo Pereira  
 
-🔗 Licença
+**CESAR School – 2024/2025**
+
+---
+
+## 🔗 Licença
+
 Este projeto é acadêmico e de uso livre para fins educacionais.
-
-go
-Copiar
-Editar
