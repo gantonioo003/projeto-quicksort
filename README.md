@@ -20,8 +20,8 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
 - `python/` — Códigos Python:
   - `quicksort.py` — Implementação do algoritmo QuickSort em Python
   - `medir_tempos.py` — Mede tempo de execução, média e desvio padrão
-  - `graficos.py` — Gera gráficos com matplotlib
-  - `quicksort_casos.py` — Simula e compara graficamente os tempos de execução do QuickSort no melhor, médio e pior caso, executando 15 vezes cada cenário
+  - `graficos.py` — Gera os gráficos 1,2 e 3 com matplotlib
+  - `quicksort_casos.py` — Simula e compara os tempos de execução do QuickSort no melhor, médio e pior caso, executando 15 vezes cada cenário, gera o gráfico 4
 
 
 - `c/` — Códigos em C:
@@ -55,10 +55,11 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
 - Cálculo de **média e desvio padrão** dos tempos.
 
 ### 3. Geração de Gráficos
-- **Gráfico 1:** Tempo médio Python vs C
-- **Gráfico 2:** Desvio padrão
-- **Gráfico 3:** Complexidade Teórica (Ω, Θ, O)
-- Visualização clara do crescimento assintótico e desempenho real.
+- **Gráfico 1:** Tempo médio Python vs C  
+- **Gráfico 2:** Desvio padrão das execuções  
+- **Gráfico 3:** Complexidade Teórica (Ω, Θ, O)  
+- **Gráfico 4:** Comparação prática entre melhor, médio e pior caso do QuickSort (em Python)  
+- Visualização clara do crescimento assintótico e do desempenho real em diferentes linguagens e cenários.
 
 ### 4. Análise Teórica e Prática
 - Complexidade assintótica:
@@ -81,8 +82,8 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
 ```bash
 cd python/
 python medir_tempos.py     # Executa os testes e coleta tempo, média e desvio padrão
-python graficos.py         # Gera os gráficos com base nos dados obtidos
-python quicksort_casos.py     # Executa 15 vezes o melhor, médio e pior caso do QuickSort e gera o gráfico comparativo
+python graficos.py         # Gera os gráficos 1,2 e 3 com base nos dados obtidos
+python quicksort_casos.py     # Executa 15 vezes o melhor, médio e pior caso do QuickSort e gera o gráfico 4
 ```
 
 📦 Requisitos:
