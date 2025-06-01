@@ -21,11 +21,10 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
   - `quicksort.py` — Implementação do algoritmo QuickSort em Python
   - `medir_tempos.py` — Mede tempo de execução, média e desvio padrão
   - `graficos.py` — Gera gráficos com matplotlib
-  - `gerar_entradas.py` — (opcional) Geração separada de entradas
 
 - `c/` — Códigos em C:
   - `quicksort.c` — Implementação do algoritmo e testes de tempo
-  - `Makefile` — (opcional) Para facilitar a compilação no terminal
+  - `medir_tempos.c` — Mede tempo de execução, média e desvio padrão
 
 - `imgs/` — Gráficos gerados:
   - `grafico1_tempos.png` — Tempo médio de execução
@@ -35,6 +34,9 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
 - `relatorio/` — Documentação final:
   - `Projeto_Teoria_Computacao_QuickSort.pdf` — Relatório completo do projeto
 
+- `dados/` — Dados coletados:
+  - `resultados_execucoes.csv` — Arquivo com os tempos de execução obtidos (Python e C)
+  
 - `README.md` — Documento principal de apresentação do projeto
 
 ## 🧠 Conteúdo
