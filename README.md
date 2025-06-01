@@ -32,6 +32,8 @@ Analisar o comportamento do algoritmo QuickSort com foco em:
   - `grafico1_tempos.png` — Tempo médio de execução
   - `grafico2_desvios.png` — Desvio padrão das execuções
   - `grafico3_complexidade.png` — Complexidade teórica comparativa
+  - `grafico4_casos_teoricos.png` — Comparação prática entre melhor, médio e pior caso (QuickSort em Python)
+
 
 - `relatorio/` — Documentação final:
   - `Projeto_Teoria_Computacao_QuickSort.pdf` — Relatório completo do projeto
